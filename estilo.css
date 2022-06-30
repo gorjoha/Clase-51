@@ -1,0 +1,49 @@
+
+h1{
+    color:#ffff;
+
+}
+*{border:none;}
+
+.header{
+    background-color: #4f772d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fondo{
+    background-color: #44cf6c;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.color1{
+    background-color: #44cf6c;
+    color:#ffff;
+    font-family: 'Verdana';
+}
+
+.color2{
+    background-color: #44cf6c;
+    color: #6f4518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.redes{
+    display: flex;
+    /*justify-content: flex-end;
+    align-items: flex-end;*/
+    flex-flow: row wrap;
+}
+
+
+p,h2{
+    text-align:center;
+    color: #6f4518;
+}
